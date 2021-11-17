@@ -2,7 +2,6 @@ body {
   background-color: powderblue;
 }
 
-
 .contacts {
   margin: auto;
 }
@@ -12,9 +11,11 @@ body {
 }
 
 
-
-
 /* css for form*/
+
+.form-group {
+    margin: 5px 1px;
+}
 .contacts {
     margin: auto;
     text-align: center;
