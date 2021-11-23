@@ -1,23 +1,51 @@
 body {
   background-color: powderblue;
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+/* previousWork */
+
+.grid-container {
+    display: grid;
+   
+  }
+.grid-container-1 .item1 {
+    grid-area: Logo1;
+}
+.grid-container-1 .item2 {
+    grid-area: Logo2;
+}
+.grid-container-1 .item3 {
+    grid-area: Logo3;
+}
+.grid-container-1 {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-template-areas: 
+    "Logo1 Logo1"
+    "Logo2 Logo3"
+}
+
+
 
 .contacts {
   margin: auto;
 }
 
-.form-group {
-  margin: 5px 1px;
-}
+/* Form*/
 
-
-/* css for form*/
-
-.form-group {
+.contacts .form-group {
     margin: 5px 1px;
 }
-.contacts {
-    margin: auto;
+.contacts .main-form {
     text-align: center;
 }
 @media (min-width: 414px) {
