@@ -1,5 +1,5 @@
 body {
-  background-color: powderblue;
+    margin: 0;
 }
 h1{
     text-align: center;
@@ -11,7 +11,64 @@ p{
     text-align: center;
 }
 
+/* About */
+
+.about{
+    height:700px;
+    background-color: 957DAD;
+    box-sizing: border-box;
+    
+}
+.about h1{
+    color:white;
+    padding-top: 50px;
+}
+.about p{
+    color: white;
+}
+
+@media (min-width: 320px){
+    .about h1{
+        font-size: 65px;
+        padding-top: 25px;
+    }
+    .about p{
+    padding-top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+    }
+}
+@media (min-width: 375px){
+    .about h1{
+        font-size: 75px;
+    }
+    .about p{
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    }
+}
+@media (min-width: 1600px){
+    .about h1{
+        font-size: 75px;
+    }
+    .about p{
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 35px;
+    }
+}
+
 /* previousWork */
+
+.previousWork{
+    height:700px;
+    background-color: DF9881;
+    box-sizing: border-box;
+}
 
 .grid-container {
     display: grid;
@@ -34,13 +91,19 @@ p{
     "Logo2 Logo3"
 }
 
+/* previousWork */
 
-
-.contacts {
-  margin: auto;
+.projects{
+    height:700px;
+    background-color: F2D7B4;
+    box-sizing: border-box;
 }
 
 /* Form*/
+.contacts {
+    margin: auto;
+    background-color: BAD8FF;
+}
 
 .contacts .form-group {
     margin: 5px 1px;
@@ -65,4 +128,9 @@ p{
         width: 800px;
         margin:auto;
     }
+}
+
+.btn.btn-primary{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
