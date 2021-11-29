@@ -128,7 +128,7 @@ p{
     }
     .previousWork .grid-container-1 .item0{
         font-size: 30px;
-        font-family: "Verdana";    
+        font-family: "Verdana";
     }
 
     .grid-container-1 {
@@ -150,7 +150,7 @@ p{
     }
     .previousWork .grid-container-2 .item7{
         font-size: 30px;
-        font-family: "Verdana";    
+        font-family: "Verdana";   
     }
 
     .grid-container-2 {
@@ -222,7 +222,7 @@ p{
         height:925px;
     }
     .previousWork h1{
-        font-size: 65px;
+        font-size: 75px;
         padding-top: 25px;
     }
 
@@ -271,10 +271,82 @@ p{
 /* Projects */
 
 .projects{
-    height:700px;
-    background-color: F2D7B4;
+    background-color: 73A88E;
     box-sizing: border-box;
 }
+
+.projects h1, .projects h2, .projects p{
+    color: white;
+}
+
+.projects img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 320px){
+    .projects{
+        height: 650px;
+    }
+    .projects h1{
+        font-size: 65px;
+    }
+    .projects img{
+        width: 85%;
+    }
+    .projects h2{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .projects p{
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 600px){
+    .projects{
+        height: 725px;
+    }
+    .projects h1{
+        font-size: 65px;
+    }
+    .projects img{
+        width: 65%;
+    }
+    .projects h2{
+        font-size: 30px;
+        margin-top: 65px;
+    }
+    .projects p{
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media (min-width: 1124px){
+    .projects{
+        height: 850px;
+    }
+    .projects h1{
+        font-size: 75px;
+    }
+    .projects img{
+        width: 45%;
+    }
+    .projects h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .projects p{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
 
 /* Form*/
 .contacts {
