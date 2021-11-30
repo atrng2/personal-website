@@ -34,7 +34,7 @@ p{
 @media (min-width: 320px){
     .about h1{
         font-size: 65px;
-        padding-top: 25px;
+        padding-top: 65px;
     }
     .about p{
     padding-top: 65px;
@@ -48,7 +48,7 @@ p{
         font-size: 75px;
     }
     .about p{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 30px;
@@ -56,9 +56,8 @@ p{
 }
 @media (min-width: 1024px){
     .about p{
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 225px;
+    padding-right: 225px;
     font-size: 35px;
     }
 }
