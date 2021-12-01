@@ -304,10 +304,20 @@ p{
     margin-right: auto;
 }
 
-.projects .githubIcon{
-    color: white;
+.projects .btn-logo1{
+    display: inline-block;
     font-size: 43px;
     padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.projects .btn-logo1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.15s;
+}
+
+.projects a{
+    color: white;
 }
 
 
@@ -331,7 +341,7 @@ p{
         margin-bottom: 10px;
     }
 }
-@media (min-width: 600px){
+@media (min-width: 500px){
     .projects{
         height: 725px;
     }
@@ -339,7 +349,7 @@ p{
         font-size: 65px;
     }
     .projects img{
-        width: 65%;
+        width: 50%;
     }
     .projects h2{
         font-size: 30px;
@@ -360,7 +370,7 @@ p{
         font-size: 75px;
     }
     .projects img{
-        width: 45%;
+        width: 40%;
     }
     .projects h2{
         font-size: 30px;
@@ -377,19 +387,28 @@ p{
 /* Form*/
 .contacts {
     margin: auto;
-    height:420px;
+    height:675px;
     background-color: BAD8FF;
+}
+.contacts .btn-primary{
+    color: white;
+    background-color: black;
+    border: none;
 }
 
 .contacts .main-form {
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
+    padding-top: 50px;
 }
 @media (min-width: 414px) {
     .main-form{
         width: 400px;
         margin:auto;
+    }
+    .contacts h1{
+        font-size: 65px;
     }
 }
 @media (min-width: 768px) {
@@ -403,6 +422,10 @@ p{
         width: 800px;
         margin:auto;
     }
+
+    .contacts h1{
+        font-size: 75px;
+    }
 }
 
 .btn.btn-primary{
@@ -410,8 +433,18 @@ p{
     margin-top: 10px;
 }
 
-.contacts .copyright{
+.contacts .socialmedia{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacts .socialmedia a{
+    color: black;
+    text-decoration:none;
+}
+
+.contacts .footer{
     text-align: center;
     font-size: 16px;
-    padding-top: 26px;
+    padding-top: 165px;
 }
