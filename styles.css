@@ -66,7 +66,7 @@ p{
 
 .previousWork{
     height:750px;
-    background-color: DF9881;
+    background-color: C96C74;
     box-sizing: border-box;
 }
 .previousWork h1{
@@ -290,7 +290,6 @@ p{
 
 .projects{
     background-color: 73A88E;
-    box-sizing: border-box;
     text-align: center;
 }
 
@@ -304,14 +303,14 @@ p{
     margin-right: auto;
 }
 
-.projects .btn-logo1{
+.projects .btn{
     display: inline-block;
     font-size: 43px;
     padding-bottom: 20px;
     padding-top: 10px;
 }
 
-.projects .btn-logo1:hover{
+.projects .btn:hover{
     transform: scale(1.1);
     transition-duration: 0.15s;
 }
@@ -323,7 +322,7 @@ p{
 
 @media (min-width: 320px){
     .projects{
-        height: 650px;
+        height: 1300px;
     }
     .projects h1{
         font-size: 65px;
@@ -343,7 +342,7 @@ p{
 }
 @media (min-width: 500px){
     .projects{
-        height: 725px;
+        height: 1400px;
     }
     .projects h1{
         font-size: 65px;
@@ -364,7 +363,7 @@ p{
 }
 @media (min-width: 1124px){
     .projects{
-        height: 850px;
+        height: 1650px;
     }
     .projects h1{
         font-size: 75px;
@@ -387,8 +386,9 @@ p{
 /* Form*/
 .contacts {
     margin: auto;
-    height:675px;
+    height:700px;
     background-color: BAD8FF;
+    box-sizing: border-box;
 }
 .contacts .btn-primary{
     color: white;
